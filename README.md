@@ -1,6 +1,6 @@
-#About This Project
-#Project Overview
-#Brief description of the goal and scope of the project.
+# About This Project
+# Project Overview
+# Brief description of the goal and scope of the project.
 
 Data Collection
 Explanation of how tweets are collected using the Twitter API (Tweepy).

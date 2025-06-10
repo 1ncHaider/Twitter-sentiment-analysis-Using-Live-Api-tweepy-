@@ -41,16 +41,16 @@ Generate your API Key, API Secret Key, Access Token, and Access Token Secret.
 
 # Set up environment variables:
 
-Create a .env file in the root directory with the following content:
+- Create a .env file in the root directory with the following content:
 
-ini
-Copy
-Edit
-API_KEY=your_api_key_here
-API_SECRET=your_api_secret_here
-ACCESS_TOKEN=your_access_token_here
-ACCESS_SECRET=your_access_token_secret_here
-Important: Add .env to your .gitignore file to keep your keys safe and private.
+- ini
+- Copy
+- Edit
+- API_KEY=your_api_key_here
+- API_SECRET=your_api_secret_here
+- ACCESS_TOKEN=your_access_token_here
+- ACCESS_SECRET=your_access_token_secret_here
+* Important: Add .env to your .gitignore file to keep your keys safe and private * 
 
 ## Install Tweepy:
 
@@ -93,13 +93,6 @@ Edit
 
 ---
 
-### Key fixes:
-
-- Code blocks inside lists are **indented with 4 spaces** to render properly
-- Avoid using `>` blockquotes inside code or lists unless intended
-- Use blank lines between sections to keep markdown clean
-
----
 
 
 

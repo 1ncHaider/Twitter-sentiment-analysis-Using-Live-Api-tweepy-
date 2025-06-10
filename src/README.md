@@ -18,13 +18,13 @@ This project performs sentiment analysis on simulated tweet data. It simulates c
 
    ```bash
    pip install -r requirements.txt
-Run the pipeline:
+## Run the pipeline:
 
 bash
 Copy
 Edit
 python main.py
-How to Use Live Twitter API (Optional)
+## How to Use Live Twitter API (Optional)
 If you want to collect live tweets instead of simulated data:
 
 Create a Twitter Developer account:
@@ -33,13 +33,13 @@ Visit https://developer.twitter.com/
 
 Apply for a developer account if you don’t have one.
 
-Create a Twitter App:
+# Create a Twitter App:
 
 In the Developer Portal, create a new app.
 
 Generate your API Key, API Secret Key, Access Token, and Access Token Secret.
 
-Set up environment variables:
+# Set up environment variables:
 
 Create a .env file in the root directory with the following content:
 
@@ -52,7 +52,7 @@ ACCESS_TOKEN=your_access_token_here
 ACCESS_SECRET=your_access_token_secret_here
 Important: Add .env to your .gitignore file to keep your keys safe and private.
 
-Install Tweepy:
+## Install Tweepy:
 
 bash
 Copy
@@ -60,7 +60,7 @@ Edit
 pip install tweepy python-dotenv
 Update src/collect_tweets.py to use Tweepy (replace the simulated script).
 
-Project Structure
+# Project Structure
 src/collect_tweets.py — Simulate or collect tweets
 
 src/preprocess.py — Clean and preprocess tweets
@@ -75,7 +75,7 @@ models/ — Saved model files
 
 main.py — Run entire pipeline
 
-Contributing
+## Contributing
 Feel free to contribute by:
 
 Adding new features
@@ -84,7 +84,7 @@ Improving the sentiment model
 
 Integrating other data sources
 
-License
+## License
 MIT License — see LICENSE file for details.
 
 yaml

@@ -1,6 +1,6 @@
-About This Project
-Project Overview
-Brief description of the goal and scope of the project.
+#About This Project
+#Project Overview
+#Brief description of the goal and scope of the project.
 
 Data Collection
 Explanation of how tweets are collected using the Twitter API (Tweepy).
@@ -45,3 +45,7 @@ A Python-based application that connects to the Twitter API using Tweepy and fet
    git clone https://github.com/yourusername/twitter-live-fetcher.git
    cd twitter-live-fetcher
    ```
+#Create and activate a virtual environment (optional but recommended):
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
+

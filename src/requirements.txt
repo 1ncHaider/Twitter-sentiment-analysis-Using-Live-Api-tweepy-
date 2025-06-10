@@ -1,3 +1,5 @@
+tweepy
+python-dotenv
 pandas
 scikit-learn
 joblib
